@@ -1,0 +1,336 @@
+{
+  "uid" : "7e6ef747f5f21c53",
+  "name" : "Тест входа через кнопку в форме восстановления пароля",
+  "fullName" : "tests.UserLoginTest.testLoginViaPasswordRecoveryFormButton",
+  "historyId" : "83ca0ebac1374c993d45e2f93616b453",
+  "time" : {
+    "start" : 1746597729811,
+    "stop" : 1746597734945,
+    "duration" : 5134
+  },
+  "description" : "Проверяет, что пользователь может войти через кнопку входа в форме восстановления пароля.",
+  "descriptionHtml" : "<p>Проверяет, что пользователь может войти через кнопку входа в форме восстановления пароля.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяет, что пользователь может войти через кнопку входа в форме восстановления пароля.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1746597731738,
+        "stop" : 1746597731738,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1746597731738,
+        "stop" : 1746597732052,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=EPmRPtZP, email=tuojg@test.com, password=pLDfPjwe, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Нажатие на кнопку 'Личный кабинет'",
+      "time" : {
+        "start" : 1746597732052,
+        "stop" : 1746597732172,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Восстановить пароль'",
+      "time" : {
+        "start" : 1746597732172,
+        "stop" : 1746597732329,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Войти'",
+      "time" : {
+        "start" : 1746597732329,
+        "stop" : 1746597732399,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Вход с email: tuojg@test.com и паролем",
+      "time" : {
+        "start" : 1746597732399,
+        "stop" : 1746597732719,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод email: tuojg@test.com",
+        "time" : {
+          "start" : 1746597732399,
+          "stop" : 1746597732507,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание заголовка 'Вход'",
+          "time" : {
+            "start" : 1746597732399,
+            "stop" : 1746597732432,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "tuojg@test.com"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1746597732508,
+          "stop" : 1746597732600,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание заголовка 'Вход'",
+          "time" : {
+            "start" : 1746597732508,
+            "stop" : 1746597732539,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "pLDfPjwe"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Нажатие на кнопку 'Войти'",
+        "time" : {
+          "start" : 1746597732600,
+          "stop" : 1746597732719,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "tuojg@test.com"
+      }, {
+        "name" : "password",
+        "value" : "pLDfPjwe"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Нажатие на кнопку 'Личный кабинет'",
+      "time" : {
+        "start" : 1746597732719,
+        "stop" : 1746597733149,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Получение значения email из профиля пользователя",
+      "time" : {
+        "start" : 1746597733149,
+        "stop" : 1746597733743,
+        "duration" : 594
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Получение токена авторизации",
+      "time" : {
+        "start" : 1746597733743,
+        "stop" : 1746597734053,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход пользователя в систему",
+        "time" : {
+          "start" : 1746597733743,
+          "stop" : 1746597734043,
+          "duration" : 300
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(name=EPmRPtZP, email=tuojg@test.com, password=pLDfPjwe, accessToken=null)"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=EPmRPtZP, email=tuojg@test.com, password=pLDfPjwe, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1746597734053,
+        "stop" : 1746597734795,
+        "duration" : 742
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=EPmRPtZP, email=tuojg@test.com, password=pLDfPjwe, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWFmNzYzOWVkMjgwMDAxYjVkZGJlYyIsImlhdCI6MTc0NjU5NzczMywiZXhwIjoxNzQ2NTk4OTMzfQ.S3iJdunZM56gUbn7LKIVRDht5ARp1ejW8jOq7M7mtUc)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 16
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginViaPasswordRecoveryFormButton"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "19252@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e6ef747f5f21c53.json",
+  "parameterValues" : [ ]
+}

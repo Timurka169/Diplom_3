@@ -1,0 +1,99 @@
+{
+  "uid" : "555e66d075425d8",
+  "name" : "Переход к разделу 'Начинки'",
+  "fullName" : "tests.ConstructorNavigationTest.shouldNavigateToFillingsSection",
+  "historyId" : "a373d7cfce23aaf384b0ace1edda5b59",
+  "time" : {
+    "start" : 1746597692843,
+    "stop" : 1746597695163,
+    "duration" : 2320
+  },
+  "description" : "Проверяет, что переход к разделу 'Начинки' работает корректно.",
+  "descriptionHtml" : "<p>Проверяет, что переход к разделу 'Начинки' работает корректно.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяет, что переход к разделу 'Начинки' работает корректно.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажатие на вкладку 'Начинки'",
+      "time" : {
+        "start" : 1746597694872,
+        "stop" : 1746597694998,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Проверка активации вкладки 'Начинки'",
+      "time" : {
+        "start" : 1746597694998,
+        "stop" : 1746597695028,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ConstructorNavigationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldNavigateToFillingsSection"
+  }, {
+    "name" : "suite",
+    "value" : "tests.ConstructorNavigationTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "19252@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "555e66d075425d8.json",
+  "parameterValues" : [ ]
+}
