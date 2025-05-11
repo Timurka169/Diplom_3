@@ -1,0 +1,306 @@
+{
+  "uid" : "42ba5fdd1503b9c3",
+  "name" : "Тест входа по кнопке «Войти в аккаунт» на главной",
+  "fullName" : "tests.UserLoginTest.testLoginViaMainPageLoginButton",
+  "historyId" : "fc912c18ed1707a6477e0fa50fed6d2d",
+  "time" : {
+    "start" : 1746597724850,
+    "stop" : 1746597729808,
+    "duration" : 4958
+  },
+  "description" : "Проверяет, что пользователь может войти через кнопку «Войти в аккаунт» на главной странице.",
+  "descriptionHtml" : "<p>Проверяет, что пользователь может войти через кнопку «Войти в аккаунт» на главной странице.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяет, что пользователь может войти через кнопку «Войти в аккаунт» на главной странице.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1746597726830,
+        "stop" : 1746597726830,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Создание нового пользователя",
+      "time" : {
+        "start" : 1746597726830,
+        "stop" : 1746597727143,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=vyyDYERS, email=ouxyp@test.com, password=BfzMYSGE, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Нажатие на кнопку 'Войти в аккаунт'",
+      "time" : {
+        "start" : 1746597727143,
+        "stop" : 1746597727277,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Вход с email: ouxyp@test.com и паролем",
+      "time" : {
+        "start" : 1746597727277,
+        "stop" : 1746597727609,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод email: ouxyp@test.com",
+        "time" : {
+          "start" : 1746597727277,
+          "stop" : 1746597727384,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание заголовка 'Вход'",
+          "time" : {
+            "start" : 1746597727277,
+            "stop" : 1746597727305,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "ouxyp@test.com"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Ввод пароля",
+        "time" : {
+          "start" : 1746597727384,
+          "stop" : 1746597727479,
+          "duration" : 95
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание заголовка 'Вход'",
+          "time" : {
+            "start" : 1746597727384,
+            "stop" : 1746597727414,
+            "duration" : 30
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "BfzMYSGE"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Нажатие на кнопку 'Войти'",
+        "time" : {
+          "start" : 1746597727479,
+          "stop" : 1746597727609,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "ouxyp@test.com"
+      }, {
+        "name" : "password",
+        "value" : "BfzMYSGE"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Нажатие на кнопку 'Личный кабинет'",
+      "time" : {
+        "start" : 1746597727609,
+        "stop" : 1746597728011,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Получение значения email из профиля пользователя",
+      "time" : {
+        "start" : 1746597728011,
+        "stop" : 1746597728615,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Получение токена авторизации",
+      "time" : {
+        "start" : 1746597728615,
+        "stop" : 1746597728929,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход пользователя в систему",
+        "time" : {
+          "start" : 1746597728615,
+          "stop" : 1746597728915,
+          "duration" : 300
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(name=vyyDYERS, email=ouxyp@test.com, password=BfzMYSGE, accessToken=null)"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=vyyDYERS, email=ouxyp@test.com, password=BfzMYSGE, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1746597728929,
+        "stop" : 1746597729645,
+        "duration" : 716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=vyyDYERS, email=ouxyp@test.com, password=BfzMYSGE, accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MWFmNzVlOWVkMjgwMDAxYjVkZGJlOCIsImlhdCI6MTc0NjU5NzcyOCwiZXhwIjoxNzQ2NTk4OTI4fQ.e640UpMcRGsxL2oz4Q_PxFT-k0P7v_JCRz1oeq3b_Nw)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 14
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginViaMainPageLoginButton"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "19252@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42ba5fdd1503b9c3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,261 @@
+{
+  "uid" : "3d8c705a895f0125",
+  "name" : "Ошибка при регистрации с некорректным паролем",
+  "fullName" : "tests.UserRegistrationTest.testErrorForInvalidPassword",
+  "historyId" : "a29e2523febdd859c8feb38ca6fe41bb",
+  "time" : {
+    "start" : 1746597741081,
+    "stop" : 1746597744022,
+    "duration" : 2941
+  },
+  "description" : "Проверяет, что ошибка отображается, если длина пароля меньше 6 символов.",
+  "descriptionHtml" : "<p>Проверяет, что ошибка отображается, если длина пароля меньше 6 символов.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверяет, что ошибка отображается, если длина пароля меньше 6 символов.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Генерация случайных данных пользователя",
+      "time" : {
+        "start" : 1746597743026,
+        "stop" : 1746597743026,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=null, email=null, password=null, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Нажатие на кнопку 'Личный кабинет'",
+      "time" : {
+        "start" : 1746597743027,
+        "stop" : 1746597743170,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Нажатие на кнопку 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1746597743170,
+        "stop" : 1746597743320,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Регистрация пользователя с именем: EGJONZpG, email: jcuqr@test.com, паролем: false",
+      "time" : {
+        "start" : 1746597743320,
+        "stop" : 1746597743617,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод имени: EGJONZpG",
+        "time" : {
+          "start" : 1746597743320,
+          "stop" : 1746597743393,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "EGJONZpG"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Ввод email: jcuqr@test.com",
+        "time" : {
+          "start" : 1746597743393,
+          "stop" : 1746597743475,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "jcuqr@test.com"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Ввод пароля: false",
+        "time" : {
+          "start" : 1746597743475,
+          "stop" : 1746597743542,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "false"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Нажатие на кнопку 'Зарегистрироваться'",
+        "time" : {
+          "start" : 1746597743542,
+          "stop" : 1746597743617,
+          "duration" : 75
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "EGJONZpG"
+      }, {
+        "name" : "email",
+        "value" : "jcuqr@test.com"
+      }, {
+        "name" : "password",
+        "value" : "false"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Проверка отображения сообщения 'Некорректный пароль'",
+      "time" : {
+        "start" : 1746597743617,
+        "stop" : 1746597743686,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Получение токена авторизации",
+      "time" : {
+        "start" : 1746597743686,
+        "stop" : 1746597743895,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Вход пользователя в систему",
+        "time" : {
+          "start" : 1746597743686,
+          "stop" : 1746597743883,
+          "duration" : 197
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "User(name=EGJONZpG, email=jcuqr@test.com, password=GmmmXzEd, accessToken=null)"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(name=EGJONZpG, email=jcuqr@test.com, password=GmmmXzEd, accessToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UserRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testErrorForInvalidPassword"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UserRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "JR"
+  }, {
+    "name" : "thread",
+    "value" : "19252@JR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d8c705a895f0125.json",
+  "parameterValues" : [ ]
+}
